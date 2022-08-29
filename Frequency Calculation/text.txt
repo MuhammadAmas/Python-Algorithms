@@ -1,0 +1,1 @@
+Write the text you want to calculate the frequency of.
