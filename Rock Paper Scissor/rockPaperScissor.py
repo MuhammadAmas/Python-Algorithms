@@ -1,10 +1,12 @@
 import random
 
-#Evaluating results
-def gamewin (user , comp):
+# Evaluating results
+
+
+def gamewin(user, comp):
     if comp == user:
-        print ("This game is a tie")
-    
+        print("This game is a tie")
+
     elif comp == 'r':
         if user == 'p':
             return False
@@ -26,8 +28,8 @@ def gamewin (user , comp):
 
 user = input("Your Turn: Rock(r) Paper(p) or Scissor(s)?")
 
-#Computer's choice
-rand=random.randint(1,3)
+# Computer's choice
+rand = random.randint(1, 3)
 if rand == 1:
     comp = 'r'
 elif rand == 2:
@@ -37,16 +39,16 @@ else:
 
 
 final = gamewin(comp, user)
-#Printing computer's choice
+# Printing computer's choice
 print(f"Computer chose {comp}")
-#Printing user's choice
+# Printing user's choice
 print(f"You chose {user}")
 
 
-#Printing results
+# Printing results
 if final == None:
     print("This game is a tie")
-elif final== True:
+elif final == True:
     print("you win")
 else:
     print("you lose")
