@@ -2,7 +2,7 @@
 
 Welcome to the Python Algorithms repository! 🐍
 
-This repository is dedicated to providing a curated collection of fundamental and intermediate Python algorithms, specifically tailored to complement the "Introduction to Computer Science" course. Whether you're a student seeking to solidify your understanding or a curious learner exploring the world of algorithms, you're in the right place!
+This repository is dedicated to providing a curated collection of fundamental and intermediate Python algorithms, specifically tailored to complement the "Introduction to Programming" course. Whether you're a student seeking to solidify your understanding or a curious learner exploring the world of algorithms, you're in the right place!
 
 ## Contents
 
